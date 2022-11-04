@@ -146,3 +146,7 @@ TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_BACKUP_EXCLUSIONS := /data/fonts
+
+#purpose
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_TORCH_PATH := /sys/class/leds/flashlight
