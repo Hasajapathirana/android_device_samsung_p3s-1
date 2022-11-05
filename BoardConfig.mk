@@ -147,6 +147,18 @@ TW_NO_BIND_SYSTEM := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_BACKUP_EXCLUSIONS := /data/fonts
 
-#purpose
-PB_DISABLE_DEFAULT_DM_VERITY := true
-PB_TORCH_PATH := /sys/class/leds/flashlight
+# SHRP Configuration
+SHRP_PATH := device/samsung/p3s
+SHRP_MAINTAINER := hasaja
+SHRP_DEVICE_CODE := p3s
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_REC=/dev/block/platform/by-name/RECOVERY
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+SHRP_FLASH_MAX_BRIGHTNESS := 100
+SHRP_AB := true
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_Only
+SHRP_OFFICIAL := true
+SHRP_EXPRESS := true
