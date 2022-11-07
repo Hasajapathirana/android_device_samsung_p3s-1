@@ -151,16 +151,16 @@ TW_BACKUP_EXCLUSIONS := /data/fonts
 PB_TORCH_PATH := /sys/class/leds/flashlight
 
 # SHRP Configuration 
-SHRP_PATH = device/samsung/p3s
-SHRP_MAINTAINER: hasaja 
-SHRP_DEVICE_CODE = p3s
+SHRP_PATH := device/samsung/p3s
+SHRP_MAINTAINER := hasaja 
+SHRP_DEVICE_CODE := p3s
 SHRP EDL MODE := 1
-SHRP_EXTERNAL: /external_sd 
-SHRP_INTERNAL: /sdcard
-SHRP_OTG:= /usb_otg 
+SHRP_EXTERNAL := /external_sd 
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg 
 SHRP FLASH := 1
 SHRP_REC := /dev/block/platform/by-name/RECOVERY
-SHRP_REC_TYPE:= Treble 
-SHRP_DEVICE_TYPE = A_Only
+SHRP_REC_TYPE := Treble 
+SHRP_DEVICE_TYPE := A_Only
 SHRP_DARK := true
 SHRP OFFICIAL := true
