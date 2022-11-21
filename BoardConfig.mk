@@ -125,7 +125,7 @@ BOARD_USES_METADATA_PARTITION := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := _hasaja
+TW_DEVICE_VERSION := _hasaja@2011
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
@@ -152,7 +152,7 @@ PB_TORCH_PATH := /sys/class/leds/flashlight
 
 # SHRP Configuration 
 SHRP_PATH := device/samsung/p3s
-SHRP_MAINTAINER := hasaja 
+SHRP_MAINTAINER := hasaja@2011
 SHRP_DEVICE_CODE := p3s
 SHRP EDL MODE := 1
 SHRP_EXTERNAL := /external_sd 
