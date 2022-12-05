@@ -147,13 +147,13 @@ TW_NO_BIND_SYSTEM := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_BACKUP_EXCLUSIONS := /data/fonts
 
-# PBRP Configurations
-PB_TORCH_PATH := /sys/class/leds/flashlight
-
 # SHRP Configuration 
 SHRP_PATH := device/samsung/p3s
 SHRP_MAINTAINER := hasaja@2011
 SHRP_DEVICE_CODE := p3s
+SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
+SHRP_FONP_2 := 
+SHRP_FONP_3 :=
 SHRP EDL MODE := 1
 SHRP_EXTERNAL := /external_sd 
 SHRP_INTERNAL := /sdcard
@@ -162,5 +162,6 @@ SHRP FLASH := 1
 SHRP_REC := /dev/block/platform/by-name/RECOVERY
 SHRP_REC_TYPE := Treble 
 SHRP_DEVICE_TYPE := A_Only
+SHRP_EXPRESS := true
+SHRP_OFFICIAL := true
 SHRP_DARK := true
-SHRP OFFICIAL := true
