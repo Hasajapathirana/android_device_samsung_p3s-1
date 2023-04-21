@@ -166,6 +166,3 @@ SHRP_EXPRESS := true
 SHRP_OFFICIAL := true
 SHRP_DARK := true
 
-#pbrp
-
-PB_TORCH_PATH := /sys/class/leds/flashlight
