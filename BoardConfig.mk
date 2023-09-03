@@ -165,3 +165,6 @@ SHRP_DEVICE_TYPE := A_Only
 SHRP_EXPRESS := true
 SHRP_OFFICIAL := true
 SHRP_DARK := true
+
+#pbrp
+PB_TORCH_PATH := /sys/devices/virtual/camera/flash/rear_flash
