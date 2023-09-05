@@ -167,5 +167,5 @@ SHRP_OFFICIAL := true
 SHRP_DARK := true
 
 # pbrp
-PB_TORCH_PATH := "/sys/devices/virtual/camera/flashrear_flash"
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
 PB_TORCH_MAX_BRIGHTNESS := 1
