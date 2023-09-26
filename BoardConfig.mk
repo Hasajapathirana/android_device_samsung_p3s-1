@@ -166,6 +166,16 @@ SHRP_EXPRESS := true
 SHRP_OFFICIAL := true
 SHRP_DARK := true
 
+SHRP_EXTERNAL_ADDON_1_NAME := "Bootlogo patcher"
+SHRP_EXTERNAL_ADDON_1_INFO := "Disable bootlogo warnings - exynos only"
+SHRP_EXTERNAL_ADDON_1_FILENAME := "TWRP_Bootlogo_patcher_v1.6.zip"
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Patch now"
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Successfuly patched"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
+
+
 # pbrp
 PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
 PB_TORCH_MAX_BRIGHTNESS := 1
+
+
